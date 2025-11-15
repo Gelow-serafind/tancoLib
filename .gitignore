@@ -1,0 +1,8 @@
+.vscode/
+
+# 忽略 tancoProj/keilProj/F1/MDK-ARM 目录下的所有文件，但保留项目文件
+tancoProj/keilProj/F1/MDK-ARM/*
+!tancoProj/keilProj/F1/MDK-ARM/
+!tancoProj/keilProj/F1/MDK-ARM/*.uvprojx
+!tancoProj/keilProj/F1/MDK-ARM/*.uvoptx
+!tancoProj/keilProj/F1/MDK-ARM/startup_stm32f103xe.s
